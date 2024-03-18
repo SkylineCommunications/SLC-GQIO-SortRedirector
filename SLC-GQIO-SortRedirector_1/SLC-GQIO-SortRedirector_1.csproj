@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net462</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugType>full</DebugType>
+		<CodeAnalysisRuleSet>..\Internal\Code Analysis\qaction-debug.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<CodeAnalysisRuleSet>..\Internal\Code Analysis\qaction-release.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+	<PropertyGroup>
+		<DefineConstants>$(DefineConstants);DCFv1;DBInfo;ALARM_SQUASHING</DefineConstants>
+	</PropertyGroup>
+	<ProjectExtensions>
+	    <VisualStudio>
+		    <UserProperties DisLinkedXmlFile="..\SLC-GQIO-SortRedirector.xml" DisProjectType="automationScriptProject" DisLinkId="1" />
+        </VisualStudio>
+	</ProjectExtensions>
+	<ItemGroup>
+	  <PackageReference Include="System.Linq" Version="4.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="SLAnalyticsTypes">
+	    <HintPath>..\..\..\..\..\..\devcore3\server\SLNet\SLNet\bin\Debug\net462\SLAnalyticsTypes.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+</Project>
