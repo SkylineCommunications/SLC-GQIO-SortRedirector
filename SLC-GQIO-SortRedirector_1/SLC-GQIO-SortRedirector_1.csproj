@@ -24,7 +24,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Reference Include="SLAnalyticsTypes">
-	    <HintPath>..\..\..\..\..\..\devcore3\server\SLNet\SLNet\bin\Debug\net462\SLAnalyticsTypes.dll</HintPath>
+	    <HintPath>..\Dlls\SLAnalyticsTypes.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 </Project>

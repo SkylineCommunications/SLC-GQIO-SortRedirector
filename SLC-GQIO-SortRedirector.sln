@@ -12,21 +12,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B394
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{D72C16D5-6986-4BAE-8421-8C30721B0EF7}"
 	ProjectSection(SolutionItems) = preProject
-		Dlls\ABOUT.md = Dlls\ABOUT.md
+		Dlls\SLAnalyticsTypes.dll = Dlls\SLAnalyticsTypes.dll
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{4971D5C0-48E7-449C-A95F-701F66B1C932}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{0739E299-982A-4655-983B-5D87084544BD}"
-	ProjectSection(SolutionItems) = preProject
-		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{2F6BEEC2-8EEE-4FFB-9CD4-A354DCA90C57}"
-	ProjectSection(SolutionItems) = preProject
-		Documentation\ABOUT.md = Documentation\ABOUT.md
-		README.md = README.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
 EndProject
