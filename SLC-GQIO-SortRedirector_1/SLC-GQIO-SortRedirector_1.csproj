@@ -20,11 +20,6 @@
         </VisualStudio>
 	</ProjectExtensions>
 	<ItemGroup>
-	  <PackageReference Include="System.Linq" Version="4.3.0" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Reference Include="SLAnalyticsTypes">
-	    <HintPath>..\Dlls\SLAnalyticsTypes.dll</HintPath>
-	  </Reference>
+	  <PackageReference Include="Skyline.DataMiner.Dev.Automation" Version="10.4.6.1" />
 	</ItemGroup>
 </Project>
